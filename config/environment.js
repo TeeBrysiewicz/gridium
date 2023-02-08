@@ -3,9 +3,11 @@
 module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'gridium',
+    podModulePrefix: 'gridium/pods',
     environment,
     rootURL: '/',
     locationType: 'history',
+    dataAuth: process.env.DA,
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
