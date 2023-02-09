@@ -1,0 +1,5 @@
+<div class="services-container">
+  {{#each @services.data as |service|}}
+    <Services::Card @service={{service}} />
+  {{/each}}
+</div>

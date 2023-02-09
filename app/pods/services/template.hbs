@@ -1,0 +1,21 @@
+{{page-title "Services"}}
+
+<div class="services-page-container">
+  <div class="services-container">
+    <h1>Services Index</h1>
+
+    <ul>
+      {{#each this.model.data as |bill|}}
+        <li>
+          <LinkTo @route="services.show" @model={{bill.id}}>
+            Bill ID#{{bill.id}}
+          </LinkTo>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+
+  <div class="service-container">
+    {{outlet}}
+  </div>
+</div>

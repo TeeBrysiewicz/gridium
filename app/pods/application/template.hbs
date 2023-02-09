@@ -1,7 +1,23 @@
 {{page-title "Gridium"}}
 
-<h1>Hello world</h1>
+<div class="container">
+  <div class="header">
 
-<h1>{{this.data}}</h1>
+    <LinkTo @route="index" class="logo">
+      Gridium
+    </LinkTo>
+
+    <div class="links">
+      <LinkTo @route="services">
+        Services
+      </LinkTo>
+
+      <LinkTo @route="meters">
+        Meters
+      </LinkTo>
+    </div>
+
+  </div>
+</div>
 
 {{outlet}}

@@ -1,0 +1,33 @@
+.meters-page-container {
+  border: 1px solid #CCC;
+  padding: 1rem;
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  ul {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #EEE;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+
+    li {
+      width: 100%;
+      padding: .5rem 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-bottom: 1px solid #CCC;
+
+      span {
+        flex: 1;
+      }
+
+      span:last-child {
+        text-align: right;
+      }
+    }
+  }
+}

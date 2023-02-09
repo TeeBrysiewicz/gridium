@@ -1,0 +1,10 @@
+<h1>Services Show</h1>
+
+<ul>
+  {{#each this.arrayData as |data|}}
+    <li>
+      <span>{{data.firstObject}}</span>
+      <span>{{data.lastObject}}</span>
+    </li>
+  {{/each}}
+</ul>

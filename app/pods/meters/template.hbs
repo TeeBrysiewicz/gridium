@@ -1,0 +1,14 @@
+{{page-title "Meters"}}
+
+<div class="meters-page-container">
+  <h1>Meter Data <small>by day</small></h1>
+
+  <ul>
+    {{#each this.meterData as |data|}}
+      <li>
+        <span>{{data.firstObject}}</span>
+        <span>{{data.lastObject}}</span>
+      </li>
+    {{/each}}
+  </ul>
+</div>

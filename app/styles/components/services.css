@@ -1,0 +1,20 @@
+.services-page-container {
+  display: flex;
+  flex-direction: row;
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .services-container {
+    flex: 1;
+    border: 1px solid #CCC;
+    padding: 1rem;
+  }
+
+  .service-container {
+    flex: 3;
+    border: 1px solid #CCC;
+    padding: 1rem;
+  }
+}
